@@ -1,7 +1,7 @@
 # for clean code :)
 isort
 black
-flake
+flake8
 
 # for safe code :)
 pytest
