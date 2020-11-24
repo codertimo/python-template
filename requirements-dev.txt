@@ -1,0 +1,10 @@
+# for clean code :)
+isort
+black
+flake
+
+# for safe code :)
+pytest
+pytest-cov
+codecov
+coverage
