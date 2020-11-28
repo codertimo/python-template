@@ -2,11 +2,11 @@
 name: Bug Report 🕷
 about: please report creepy bug
 title: ""
+labels: bug
 ---
 
-## Abstract 🔥
+### Abstract 🔥
 
-## How to Reproduce 🤔
+### How to Reproduce 🤔
 
-## How to solve 🙋‍♀️
-
+### How to solve 🙋‍♀️
