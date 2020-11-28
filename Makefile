@@ -1,6 +1,7 @@
-.PHONY: style quality test
+.PHONY: style quality test test-cov
 
 check_dirs := package/ scripts/ tests/
+test_dirs := package/
 
 style:
 	black $(check_dirs)
@@ -14,3 +15,6 @@ quality:
 
 test:
 	pytest
+
+test-cov:
+	pytest --cov-branch --cov $(test_dirs)

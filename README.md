@@ -7,6 +7,7 @@ Template for my python projects
 - [ ] Make your own package name 👋
 - [ ] Replace `package/` to new package name 🎉
 - [ ] Replace command in `.github/workflows/main.yml` with new package name 🔨
+- [ ] Replace command in `Makefile` with new package name
 - [ ] Replace name, description, author etc in `setup.py` with new package setting 🏄‍♂️
 - [ ] Replace author, version in `package/__init__.py` to new package name
 - [ ] Setting codecov (https://docs.codecov.io/docs/quick-start) to your repo
@@ -22,6 +23,18 @@ And you can run the scripts through under command
 
 ```shell
 python -m scripts.run_sample
+```
+
+## Run Linting
+
+This project use three Linter: `black`, `isort`, `flake8`
+
+```
+# use linter to fix code format
+make style
+
+# check lint error
+make quality
 ```
 
 ## Run Test
